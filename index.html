@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+  <title>Portafolio</title>
+
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+  <header class="header">
+    <nav class="navbar grid--container">
+      <a class="navbar__logo" href="#"><i class='bx bxs-user-circle'></i> cmbd</a>
+
+      <div class="navbar__menu">
+        <a class="btn__close" href="#"><i class='bx bx-x navbar__icon'></i></a>
+
+        <ul class="navbar__list">
+          <li class="navbar__item"><a class="navbar__link" href="#home">Inicio</a></li>
+          <li class="navbar__item"><a class="navbar__link" href="#about">Acerca de Mí</a></li>
+          <li class="navbar__item"><a class="navbar__link" href="#portfolio">Portafolio</a></li>
+          <li class="navbar__item"><a class="navbar__link" href="#contact">Contacto</a></li>
+        </ul>
+      </div>
+
+      <a class="btn__open" href="#"><i class='bx bx-menu navbar__icon'></i></a>
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="home">
+      <div class="home__container grid--container">
+        <div class="home__image">
+          <span></span>
+          <img src="assets/img/profile.png" alt="profile photo">
+        </div>
+
+        <ul class="home__social">
+          <li class="home__social-item"><a class="home__social-link" href="#"><i class='bx bxl-linkedin'></i></a></li>
+          <li class="home__social-item"><a class="home__social-link" href="#"><i class='bx bxl-instagram'></i></a></li>
+          <li class="home__social-item"><a class="home__social-link" href="#"><i class='bx bxl-facebook'></i></a></li>
+        </ul>
+
+        <div class="home__info">
+          <h1 class="home__title">Hola, soy Cristian <br> Barrantes</h1>
+          <p class="home__description">
+            Desarrollador web, apasionado por la tecnología y la programación.
+          </p>
+        </div>
+
+        <div class="home__buttons">
+          <button class="btn btn--primary" type="button">Descarga CV</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="about section">
+      <h2 class="section__title">Acerca de Mí</h2>
+
+      <div class="about__container grid--container">
+        <p class="about__description">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet incidunt aut distinctio maxime recusandae.
+          Velit exercitationem ducimus cupiditate corrupti eveniet soluta accusamus quasi, suscipit, vitae optio,
+          officiis rerum cumque numquam.
+        </p>
+
+        <div class="about__skills grid--container">
+          <div class="about__cards">
+            <!--Card 1 -->
+            <div class="about__card">
+              <i class='bx bxl-html5'></i>
+
+              <h3 class="about__card-title">HTML5</h3>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <!--Card 2 -->
+            <div class="about__card">
+              <i class='bx bxl-css3'></i>
+
+              <h3 class="about__card-title">CSS3</h3>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <!--Card 3 -->
+            <div class="about__card">
+              <i class='bx bxl-javascript'></i>
+
+              <h3 class="about__card-title">JavaScript</h3>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+          </div>
+
+          <div class="about__tags">
+            <h3 class="about__tags-title">Habilidades</h3>
+            <div class="about__tags-container">
+              <span class="about__tag">Responsable</span>
+              <span class="about__tag">Trabajo en equipo</span>
+              <span class="about__tag">Creativo</span>
+              <span class="about__tag">Puntual</span>
+              <span class="about__tag">Proactivo</span>
+              <span class="about__tag">Autodidacta</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="projects section">
+      <h2 class="section__title">Proyectos</h2>
+
+      <div class="projects__container grid--container">
+        <div class="projects__project">
+          <div class="projects__inner grid--container">
+            <div class="projects__image">
+              <img src="assets/img/project1.jpg" alt="project 1">
+            </div>
+
+            <div class="projects__info">
+              <h3 class="projects__name">Proyecto 1</h3>
+              <p class="projects__description">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+
+              <div class="projects__buttons">
+                <button class="btn projects__button" type="button">VER DEMO</button>
+                <button class="btn projects__button" type="button">VER CÓDIGO</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="projects__project">
+          <div class="projects__inner grid--container">
+            <div class="projects__image">
+              <img src="assets/img/project2.png" alt="project 1">
+            </div>
+
+            <div class="projects__info">
+              <h3 class="projects__name">Proyecto 2</h3>
+              <p class="projects__description">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+
+              <div class="projects__buttons">
+                <button class="btn projects__button" type="button">VER DEMO</button>
+                <button class="btn projects__button" type="button">VER CÓDIGO</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="projects__project">
+          <div class="projects__inner grid--container">
+            <div class="projects__image">
+              <img src="assets/img/project3.jpg" alt="project 1">
+            </div>
+
+            <div class="projects__info">
+              <h3 class="projects__name">Proyecto 3</h3>
+              <p class="projects__description">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+
+              <div class="projects__buttons">
+                <button class="btn projects__button" type="button">VER DEMO</button>
+                <button class="btn projects__button" type="button">VER CÓDIGO</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="projects__project">
+          <div class="projects__inner grid--container">
+            <div class="projects__image">
+              <img src="assets/img/project4.png" alt="project 1">
+            </div>
+
+            <div class="projects__info">
+              <h3 class="projects__name">Proyecto 4</h3>
+              <p class="projects__description">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+
+              <div class="projects__buttons">
+                <button class="btn projects__button" type="button">VER DEMO</button>
+                <button class="btn projects__button" type="button">VER CÓDIGO</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section">
+      <h2 class="section__title">Contacto</h2>
+
+      <div class="contact__container grid--container">
+        <div class="contact__info">
+          <h3 class="contact__info-title">Información de contacto</h3>
+          <p class="contact__info-description">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+          </p>
+
+          <address class="contatc__info-data">
+            <div class="contact__info-item">
+              <i class='bx bx-phone'></i>
+
+              <span class="contact__info-nomber">
+                +00 123 456 7890
+              </span>
+            </div>
+
+            <div class="contact__info-item">
+              <i class='bx bxs-envelope'></i>
+
+              <span class="contact__info-mail">
+                <a href="mailto:test@correo.com">
+                  test@correo.com
+                </a>
+              </span>
+            </div>
+
+            <div class="contact__info-item">
+              <i class='bx bx-map'></i>
+
+              <span class="contact__info-map">
+                Bogotá, Colombia.
+              </span>
+            </div>
+          </address>
+        </div>
+
+        <div class="contact__form">
+          <h3 class="contact__form-title">Enviar mensaje</h3>
+
+          <form id="form" class="contact__form-container">
+
+            <div class="contact__form-group">
+              <label for="name" class="contact__form-label">Nombre</label>
+              <input type="text" id="name" class="contact__form-input">
+            </div>
+
+            <div class="contact__form-group">
+              <label for="email" class="contact__form-label">Correo</label>
+              <input type="email" id="email" class="contact__form-input">
+            </div>
+
+            <div class="contact__form-group">
+              <label for="message" class="contact__form-label">Mensaje</label>
+              <textarea id="message" cols="30" rows="10" class="contact__form-input"></textarea>
+            </div>
+
+            <button type="submit" class="btn contact__form-button">Enviar</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer section">
+    <div class="footer__container grid--container">
+      <div class="footer__info">
+        <h3 class="footer__title">Cristian Barrantes</h3>
+        <p class="footer__description">
+          Soy desarrollador web, apasionado por la tecnología y la programación.
+        </p>
+      </div>
+
+      <div class="footer__social">
+        <h3 class="footer__title">Redes Sociales</h3>
+
+        <ul class="footer__social-list">
+          <li class="footer__social-item">
+            <a class="footer__social-link" href="#"><i class='bx bxl-facebook'></i></a>
+          </li>
+
+          <li class="footer__social-item">
+            <a class="footer__social-link" href="#"><i class='bx bxl-instagram'></i></a>
+          </li>
+
+          <li class="footer__social-item">
+            <a class="footer__social-link" href="#"><i class='bx bxl-twitter'></i></a>
+          </li>
+
+          <li class="footer__social-item">
+            <a class="footer__social-link" href="#"><i class='bx bxl-linkedin'></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <p class="footer__copy grid--container">
+    &copy; 2022, Todos los derechos reservados
+    </p>
+  </footer>
+
+  <script>
+    const btnMenu = document.querySelector('.btn__open')
+    const btnClose = document.querySelector('.btn__close')
+    const Menu = document.querySelector('.navbar__menu')
+
+
+    btnMenu.onclick = function () {
+      Menu.classList.add('show--menu')
+    }
+
+    btnClose.onclick = function () {
+      Menu.classList.remove('show--menu')
+    }
+  </script>
+
+</body>
+
+</html>
