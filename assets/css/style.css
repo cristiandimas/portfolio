@@ -56,8 +56,6 @@
     --smaller-font-size: 14px;
   }
 
-
-
 }
 
 /* ============= BASE ============= */
@@ -437,7 +435,7 @@ img {
     height: auto;
   } 
   .section {
-    padding: 2rem 0;
+    padding: 3rem 0;
   }
   .section__title {
     text-align: center;
