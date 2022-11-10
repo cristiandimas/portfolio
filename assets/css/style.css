@@ -538,6 +538,10 @@ img {
   
 }
 
+.projects .section__title{
+  color: rgb(193, 193, 214);
+}
+
 .projects__inner {
   margin: 0;
   grid-template-columns: repeat(4, 1fr);  
