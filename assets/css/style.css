@@ -587,6 +587,13 @@ img {
   color: rgb(193, 193, 214);
   padding: 1em;
 }
+.contact__form {
+  width: 100%;
+  padding: 3rem 1.5rem 2rem;
+  background: rgba(73, 73, 102, 0.205);
+  border-radius: 5px;
+  margin: 0 auto;
+}
 
 
 .footer{
