@@ -577,7 +577,8 @@ img {
   font-size: var(--smaller-font-size);
 }
 .contact {
-  background-color: transparent;
+  background: rgba(73, 73, 102, 0.205);
+  color: rgb(193, 193, 214);
   padding: 1em;
 }
 
