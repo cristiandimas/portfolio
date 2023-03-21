@@ -98,15 +98,5 @@ export let projectsData = [
         hrefPage :"https://allencarlosdev.github.io/page1/", titlePage:"web page 1",
       }
     },
-    {
-      id:10,
-      category:["React"],
-      title:"Portfolio",
-      image:require("@/assets/allenpage4.png"),
-      objective:"It shows all the own projects that I made to show to companies or clients, this page is made with Vuejs.",
-      links:{
-        hrefCode:"https://github.com/allencarlosdev/portfolio", titleCode:"code on github page portfolio",
-        hrefPage :"https://allencarlosdev.com", titlePage:"Portfolio web of Carlos Allen",
-      }
-    },
+    
   ]
