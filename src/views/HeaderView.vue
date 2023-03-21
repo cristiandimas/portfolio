@@ -5,9 +5,9 @@
         </div>
         <div>
             <ul class="header__social" @mouseover="setMove(true)" @mouseout="setMove(false)">
-                <li class="header__link" :class="{'header__link--active':(active ===1), 'header__link--inactive':(active !== 1 && move === true)}" @mouseover="setActive(1)" ><a rel="noopener noreferrer" href="https://github.com/allencarlosdev" target="_blank" title="link of github"><i class="fa fa-github"></i></a></li>
-                <li class="header__link" :class="{'header__link--active':(active ===2), 'header__link--inactive':(active !== 2 && move === true)}" @mouseover="setActive(2)" ><a rel="noopener noreferrer" href="https://www.linkedin.com/in/allencarlosdev/" target="_blank" title="link of linkedin"><i class="fa fa-linkedin"></i></a></li>
-                <li class="header__link" :class="{'header__link--active':(active ===3), 'header__link--inactive':(active !== 3 && move === true)}" @mouseover="setActive(3)" ><a rel="noopener noreferrer" href="https://stackoverflow.com/users/16209550/carlos-allen" target="_blank" title="link of  stackoverflow"><i class="fa  fa-twitter"></i></a></li>
+                <li class="header__link" :class="{'header__link--active':(active ===1), 'header__link--inactive':(active !== 1 && move === true)}" @mouseover="setActive(1)" ><a rel="noopener noreferrer" href="https://github.com/cristiandimas" target="_blank" title="link of github"><i class="fa fa-github"></i></a></li>
+                <li class="header__link" :class="{'header__link--active':(active ===2), 'header__link--inactive':(active !== 2 && move === true)}" @mouseover="setActive(2)" ><a rel="noopener noreferrer" href="https://www.linkedin.com/in/cristian-mauricio-barrantes-dimas/" target="_blank" title="link of linkedin"><i class="fa fa-linkedin"></i></a></li>
+                <li class="header__link" :class="{'header__link--active':(active ===3), 'header__link--inactive':(active !== 3 && move === true)}" @mouseover="setActive(3)" ><a rel="noopener noreferrer" href="https://twitter.com/cristiandimas74" target="_blank" title="link of  twitter"><i class="fa  fa-twitter"></i></a></li>
                 
             </ul>
         </div>
@@ -49,14 +49,18 @@
     }
 
     /* Logo */
- 
+    .header__triangle{
+       display: flex;
+       justify-content: center;
+       align-items: center;       
+ }
 
     
 
     .header__logo {
         
         width: 4rem;
-        top: 2rem;
+        top: .5rem;
         left:2rem;
         z-index: 5;
         animation: logo 10s infinite;
@@ -106,25 +110,24 @@
     
     @media screen and (max-width:1440px) {
 
-        .header__triangle {
-            width: 8rem;
-            height: 8em;
-        }
-        .header__logo {
-            width: 1.8rem;
-        }
+      
+        .header__triangle{
+            display: flex;
+            justify-content: center;
+            align-items: center;                  
+    }
     }
 
     @media screen and (max-width:575px) {
         .header {
-            justify-content: center;
+            justify-content: space-between;
         }
-        .header__triangle {
+        /* .header__triangle {
             display: none;
         }
         .header__logo {
             display: none;
-        }
+        } */
 
 
         .header__social {

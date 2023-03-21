@@ -84,13 +84,24 @@
         }
         .footer__btn {
             order: 2;
-            margin-top: 3.5rem;
+            margin-top: 3.5rem;           
         }
     }
     @media screen and (max-width:575px) {
-        .footer__btn--cv {
-            display: none;
+        .footer__btn {
+            order: 2;
+            font-size: 1.3rem;
+            width: 45%;          
         }
+        .footer__link {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;        
+        height: 3rem;
+        color: var(--letter-color);      
+    }
+   
         .footer {
             justify-content: center;
         }

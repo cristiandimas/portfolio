@@ -70,6 +70,7 @@
         width: 100%;
         height: 100vh;
         z-index: 1;
+        
     }
 
     .home__img{
@@ -148,9 +149,17 @@
         }
 
         .home__landscape {
-            width: 130%;
+            width: 120%;
             overflow: hidden;
             
+            
+        }
+        .home__button {
+            bottom: 15vh;
+        }
+        .home__portfolio {
+            width: 12rem;
+            font-size: 2.75rem;            
         }
 
         .home__animation {
@@ -198,22 +207,35 @@
     }
 
     @media screen and (max-width:400px) {
-
+        .home__button {
+            bottom: 20vh;           
+        }
         .home__landscape {
-            padding-bottom: 7rem;
+            padding-bottom: 4rem;
         }
 
         .home__landscape:before{
-            height: 7rem;
+            height: 9rem;
         }
 
         .home__animation {
-            margin-bottom: 14.5rem;
+            margin-bottom: 12.5rem;
         }
 
         .home__portfolio {
-            width: 12rem;
-            font-size: 2.75rem;
+            width: 8rem;
+            font-size: 1.75rem;
+        }
+    }
+
+    @media(orientation: landscape)  {
+        .home__title{
+           font-size: 2rem;
+            line-height: 15vh;
+            top: 22vh;            
+        }
+        .home__button {
+            bottom: 32vh;           
         }
     }
 </style>
