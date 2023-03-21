@@ -49,16 +49,7 @@
     }
 
     /* Logo */
-    .header__triangle {
-        display: flex;
-        z-index: 5;
-        position: relative;
-        background: var(--letter-color);
-        width: 14rem;
-        height: 14rem;
-        clip-path: polygon(100% 0, 0 0, 0 100%);
-        animation: triangle 7s;
-    }
+ 
 
     @keyframes triangle {
         0%{
