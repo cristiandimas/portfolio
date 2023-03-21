@@ -51,21 +51,10 @@
     /* Logo */
  
 
-    @keyframes triangle {
-        0%{
-            clip-path: polygon(0 0, 0 0, 0 0);
-        }
-        80% {
-            clip-path: polygon(0 0, 0 0, 0 0);
-        }
-
-        100% {
-            clip-path: polygon(100% 0, 0 0, 0 100%);
-        }
-    }
+    
 
     .header__logo {
-        position: absolute;
+        
         width: 4rem;
         top: 2rem;
         left:2rem;
