@@ -1,0 +1,11 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Letra C -->
+  <rect x="10" y="10" width="50" height="80" fill="#333"/>
+  <circle cx="35" cy="50" r="20" fill="#fff"/>
+  
+  <!-- Letra B -->
+  <rect x="50" y="10" width="30" height="30" fill="#666"/>
+  <rect x="50" y="40" width="30" height="30" fill="#999"/>
+  <rect x="50" y="70" width="30" height="20" fill="#ccc"/>
+  <rect x="80" y="10" width="10" height="80" fill="#666"/>
+</svg>
