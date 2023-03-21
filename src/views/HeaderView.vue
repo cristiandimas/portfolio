@@ -51,7 +51,7 @@
     /* Logo */
     .header__triangle {
         display: flex;
-        
+        z-index: 5;
         position: relative;
         background: var(--letter-color);
         width: 14rem;
