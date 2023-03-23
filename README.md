@@ -1,4 +1,4 @@
-# Allenpage 4 - PORTFOLIO
+# Cristian Barrantes- PORTFOLIO
 
 **Web Theme :**
 
@@ -21,13 +21,8 @@ Create a web page in Vue with a nice design, responsive and with route preloads 
 - VueJs
 
 
-**Development environment :**
 
-VUE CLI
 
-## Image
-![App Screenshot](https://github.com/allencarlosdev/portfolio/blob/main/src/assets/allenpage4.png)
 
- LIVE EXAMPLE : https://allencarlosdev.com/
 
 
