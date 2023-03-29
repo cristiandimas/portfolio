@@ -82,7 +82,7 @@
     .home__title{
         position: absolute;
         z-index: 1;
-        top: 18vh;
+        top: 16vh;
         line-height: 20vh;
     }
     .home__cristian {
