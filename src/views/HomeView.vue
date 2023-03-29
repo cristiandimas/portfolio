@@ -86,13 +86,13 @@
         line-height: 20vh;
     }
     .home__cristian {
-        font-size: 8vw;
+        font-size: 7vw;
         font-weight: 600;
     }
     .home__dev {
         text-align: center;
         font-weight: 600;
-        font-size: 8vw;
+        font-size: 7vw;
     }
 
     
