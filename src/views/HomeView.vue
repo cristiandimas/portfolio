@@ -83,16 +83,16 @@
         position: absolute;
         z-index: 1;
         top: 20vh;
-        line-height: 19vh;
+        line-height: 20vh;
     }
     .home__cristian {
-        font-size: 9vw;
+        font-size: 8.5vw;
         font-weight: 600;
     }
     .home__dev {
         text-align: center;
         font-weight: 600;
-        font-size: 10vw;
+        font-size: 9vw;
     }
 
     
