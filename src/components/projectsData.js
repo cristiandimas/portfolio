@@ -29,7 +29,7 @@ export let projectsData = [
   {
     id: 3,
     category: ["Node"],
-    title: "Api Rest - player music (Back-End)",
+    title: "Api Rest - player music(Back-End)",
     image: require(""),
     objective:
       "Create an API Rest in Node with Express it also has an AUTH system with JWT",
