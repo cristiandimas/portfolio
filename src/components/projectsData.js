@@ -30,7 +30,7 @@ export let projectsData = [
     id: 3,
     category: ["Node"],
     title: "Api Rest - player music(Back-End)",
-    image: require(""),
+    image: require("@/assets/reactive-form.png"),
     objective:
       "Create an API Rest in Node with Express it also has an AUTH system with JWT",
     links: {
@@ -44,7 +44,7 @@ export let projectsData = [
     id: 4,
     category: ["React"],
     title: "Weather Api (Front-End)",
-    image: require(""),
+    image: require("@/assets/reactive-form.png"),
     objective: "Consume Api in Vuejs",
     links: {
       hrefCode: "",
@@ -57,7 +57,7 @@ export let projectsData = [
     id: 5,
     category: ["Laravel"],
     title: "Post-it",
-    image: require(""),
+    image: require("@/assets/reactive-form.png"),
     objective: "Create post-it application",
     links: {
       hrefCode: "",
@@ -70,7 +70,7 @@ export let projectsData = [
     id: 6,
     category: ["Laravel"],
     title: "",
-    image: require(""),
+    image: require("@/assets/reactive-form.png"),
     objective:
       "the goal of this static page is to try to replicate the original page but with some subtle changes in addition to using BEM methodology.",
     links: {
@@ -84,7 +84,7 @@ export let projectsData = [
     id: 7,
     category: ["Vanilla"],
     title: "Memory Game",
-    image: require(""),
+    image: require("@/assets/reactive-form.png"),
     objective: "Create a mini memory game with javascript",
     links: {
       hrefCode: "",
@@ -97,7 +97,7 @@ export let projectsData = [
     id: 8,
     category: ["Vanilla"],
     title: "Movie Api (Front-End)",
-    image: require(""),
+    image: require("@/assets/reactive-form.png"),
     objective: "Consume an API via Fetch in Javascript",
     links: {
       hrefCode: "",
@@ -110,7 +110,7 @@ export let projectsData = [
     id: 9,
     category: ["Laravel"],
     title: "Allenpage1",
-    image: require(""),
+    image: require("@/assets/reactive-form.png"),
     objective:
       "My goal as a programmer for this static page was to make it as simple as possible without using methodologies, libraries etc.",
     links: {
