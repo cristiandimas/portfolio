@@ -7,9 +7,9 @@ export let projectsData = [
     objective:
       "",
     links: {
-      hrefCode: "https://entregable5react.netlify.app/",
+      hrefCode: "",
       titleCode: "code on github page 3",
-      hrefPage: "",
+      hrefPage: "https://entregable5react.netlify.app/",
       titlePage: "",
     },
   },
