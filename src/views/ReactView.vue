@@ -1,5 +1,5 @@
 <template>
-  <div class="react">
+  <div class="vue">
     <div class="vue__container">
       <projectList :filterProjects="filterProjects"></projectList>
       <pagination category="React" @projectPages="filterData"></pagination>
