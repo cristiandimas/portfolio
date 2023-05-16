@@ -2,12 +2,12 @@ export let projectsData = [
   {
     id: 1,
     category: ["React"],
-    title: "Allenpage3 (Back-End + Front-End)",
+    title: "Pokedex",
     image: require("@/assets/allenpage3.svg"),
     objective:
       "",
     links: {
-      hrefCode: "",
+      hrefCode: "https://entregable5react.netlify.app/",
       titleCode: "code on github page 3",
       hrefPage: "",
       titlePage: "",
