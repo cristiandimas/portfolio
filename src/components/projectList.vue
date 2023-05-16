@@ -124,7 +124,7 @@ import gsap from 'gsap'
   @media screen and (min-width:2350px){
     .projects__transition {
       grid-template-columns: repeat(3, minmax(min(100%, 20rem), 1fr));
-      grid-auto-rows: minmax(10rem, 17rem);
+      grid-auto-rows: minmax(10rem, 15rem);
     }
   }
   
