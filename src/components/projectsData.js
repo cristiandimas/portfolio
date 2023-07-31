@@ -29,15 +29,15 @@ export let projectsData = [
   {
     id: 3,
     category: ["Node"],
-    title: "Api Rest - player music(Back-End)",
-    image: require("@/assets/reactive-form.png"),
+    title: "Api Rest - Repairs Motors(Back-End)",
+    image: require("@/assets/APIREST.jpeg"),
     objective:
       "Create an API Rest in Node with Express it also has an AUTH system with JWT",
     links: {
-      hrefCode: "",
+      hrefCode: "https://github.com/cristiandimas/Proyect-Motors",
       titleCode: "code on github for coffee form",
-      hrefPage: "",
-      titlePage: "Player music API REST (Back-End)",
+      hrefPage: "https://github.com/cristiandimas/Proyect-Motors",
+      titlePage: "Repairs Motors API REST (Back-End)",
     },
   },
   {
@@ -55,20 +55,20 @@ export let projectsData = [
   },
   {
     id: 5,
-    category: ["Laravel"],
-    title: "Post-it",
-    image: require("@/assets/reactive-form.png"),
-    objective: "Create post-it application",
+    category: ["Node"],
+    title: "Api Rest - Eccomerce(Back-End)",
+    image: require("@/assets/APIREST.jpeg"),
+    objective: "Create an API Rest in Node with Express it also has an AUTH system with JWT",
     links: {
-      hrefCode: "",
+      hrefCode: "https://github.com/cristiandimas/Eccomerce",
       titleCode: "code on github for post-it",
-      hrefPage: "",
-      titlePage: "Post-it Application",
+      hrefPage: "https://github.com/cristiandimas/Eccomerce",
+      titlePage: "Eccomerce(Back-End) Application",
     },
   },
   {
     id: 6,
-    category: ["Laravel"],
+    category: ["Next"],
     title: "",
     image: require("@/assets/reactive-form.png"),
     objective:
@@ -108,7 +108,7 @@ export let projectsData = [
   },
   {
     id: 9,
-    category: ["Laravel"],
+    category: ["Next"],
     title: "Allenpage1",
     image: require("@/assets/reactive-form.png"),
     objective:

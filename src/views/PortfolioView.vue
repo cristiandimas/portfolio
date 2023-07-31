@@ -41,7 +41,7 @@ import projectList from '@/components/projectList.vue'
 
   /* All projects */
   .portfolio__container {
-    margin: 5rem 0;
+    margin: 3rem 0;
     width: 90%;
     padding: 5rem;
     

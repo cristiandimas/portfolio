@@ -1,6 +1,6 @@
 <template>
-  <div class="vue">
-    <div class="vue__container">
+  <div class="react">
+    <div class="react__container">
       <projectList :filterProjects="filterProjects"></projectList>
       <pagination category="React" @projectPages="filterData"></pagination>
     </div>
@@ -30,7 +30,7 @@ import projectList from '@/components/projectList.vue'
 </script>
 
 <style scoped>
-  .vue {
+  .react {
     position: absolute;
     display: flex;
     justify-content: end;
@@ -40,8 +40,8 @@ import projectList from '@/components/projectList.vue'
   }
 
   /* All projects */
-  .vue__container {
-    margin: 5rem 0;
+  .react__container {
+    margin: 3rem 0;
     width: 90%;
     padding: 5rem;
 
@@ -50,14 +50,14 @@ import projectList from '@/components/projectList.vue'
 
 
   @media screen and (max-width:1000px) {
-    .vue__container {
+    .react__container {
       width: 100%;
       padding: 5rem 2rem;
     }
   }
 
   @media screen and (max-width:500px) {
-    .vue__container {
+    .react__container {
       padding: 5rem 1rem;
     }
   }

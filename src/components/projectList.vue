@@ -54,7 +54,7 @@ import gsap from 'gsap'
 .projects__transition {
     display: grid;
     gap: 0.938rem;
-    grid-template-columns: repeat(auto-fill, minmax(min(100%, 30rem), 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 25rem), 1fr));
     grid-auto-rows: minmax(10rem, 18rem);
     /* background: lightgoldenrodyellow; */
   }

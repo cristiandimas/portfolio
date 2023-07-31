@@ -4,7 +4,7 @@
         <nav v-show="!isHome" class="content__nav">
             <router-link to="/portfolio" class="content__link"><i class="fa-solid fa-table-list"></i> All projects</router-link>
             <router-link to="/react" class="content__link"><i class="fa-brands fa-react"></i> react </router-link>
-            <!-- <router-link to="/laravel" class="content__link"><i class="fa-brands fa-laravel"></i> Laravel </router-link> -->
+            <router-link to="/next" class="content__link"><i class="fa-brands fa-laravel"></i> Next </router-link>
             <router-link to="/vanilla" class="content__link"><i class="fa-brands fa-js"></i> Vanilla JS</router-link>
             <router-link to="/node" class="content__link"><i class="fa-solid fa-server"></i> Node JS</router-link>
             <router-link to="/skill" class="content__link"><i class="fa-solid fa-book"></i> Skill</router-link>
