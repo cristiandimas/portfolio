@@ -1,7 +1,7 @@
 <template>
     <div class="home" @mousemove="mouseMove">
         <div class="home__landscape">
-            <img class="home__img" loading="lazy" src="@/assets/backgroundcb.svg" alt="landscape background">
+            <img class="home__img" loading="lazy" src="" alt="landscape background">
         </div>
         <div class="home__title" :style="style">
             <h1 class="home__cristian">Cristian Barrantes</h1>
