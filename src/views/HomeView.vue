@@ -75,6 +75,7 @@
 
     .home__img{
        height: 100%
+       
     }
 
     /* Title of the back */
