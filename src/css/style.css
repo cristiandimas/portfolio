@@ -9,7 +9,7 @@
     --letter-color:#fbd758;
     --font: 'Bebas Neue', sans-serif;
     --letter-gradient:#968033;
-    background-image: url("@/assets/backgroundcb.svg");
+    background-image: url(../assets/backgroundcb.svg);
 
 }
 
