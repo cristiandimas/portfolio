@@ -41,7 +41,7 @@
     margin: .75rem;
     background-color: var(--background-body);
     border-radius: 50%;
-    animation: scaleIn 2s infinite;
+    animation: scaleIn 1s infinite;
     animation-duration: 1s;
     transform: scale(0);
 }
@@ -77,7 +77,7 @@
 
 .hexagon-enter-from, .hexagon-leave-to {
     animation: scaleOut;
-    animation-duration: 3s;
+    animation-duration: 1s;
 }
 
 @keyframes scaleIn {
