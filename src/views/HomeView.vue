@@ -61,7 +61,7 @@
         justify-content: center;
         align-items: end;
         width: 100%;
-        height: 100dvh;
+        height: 100vh;
         
         
     }
