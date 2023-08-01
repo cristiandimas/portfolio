@@ -146,7 +146,7 @@
         }
 
         .home__title {
-            line-height: 12vh;
+            line-height: 13vh;
         }
 
         .home__landscape {
