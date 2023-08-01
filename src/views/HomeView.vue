@@ -97,7 +97,7 @@
     .home__dev {
         text-align: center;
         font-weight: 600;
-        font-size: 7vw;
+        font-size: 6vw;
     }
 
     
