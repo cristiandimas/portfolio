@@ -62,6 +62,7 @@
         align-items: end;
         width: 100%;
         height: 100vh;
+        border: solid rgb(0, 255, 47);
         
         
     }
@@ -70,6 +71,7 @@
         width: 100%;
         height: 100vh;
         z-index: 1;
+        border: solid rgb(85, 0, 255);
         
     }
 
@@ -83,7 +85,7 @@
     .home__title{
         position: absolute;
         z-index: 1;
-        top: 13vh;
+        top: 10vh;
         line-height: 23vh;
         border: solid red;
     }
