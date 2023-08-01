@@ -85,6 +85,7 @@
         z-index: 1;
         top: 13vh;
         line-height: 23vh;
+        border: solid red;
     }
     .home__cristian {
         font-size: 7vw;
