@@ -61,7 +61,7 @@
         justify-content: center;
         align-items: end;
         width: 100%;
-        height: 100vh;
+        height: 100dvh;
         
         
     }
@@ -73,18 +73,18 @@
         
     }
 
-    .home__img{
+    /* .home__img{
        height: 100%
        
-    }
+    } */
 
     /* Title of the back */
 
     .home__title{
         position: absolute;
         z-index: 1;
-        top: 16vh;
-        line-height: 21vh;
+        top: 13vh;
+        line-height: 23vh;
     }
     .home__cristian {
         font-size: 7vw;
