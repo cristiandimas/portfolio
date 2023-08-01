@@ -4,7 +4,7 @@
             <a rel="noopener noreferrer" href="https://docs.google.com/document/d/1v5RKKJjuwBi0LMZLXsgKlfG_YqaMtttDaijhnvYA5LU/export?format=pdf" download="Cristian Barrantes CV" class="footer__link"><i class="fa-solid fa-circle-down"></i>Download CV</a>
         </button>
         <div class="footer__email">
-            <p class="footer__p"><i class="fa-solid fa-envelope"></i> <a href="mailto:cristiandimas74@gmail.com">cristiandimas74@gmail.com</a> </p>
+            <a href="mailto:cristiandimas74@gmail.com"><p class="footer__p"><i class="fa-solid fa-envelope"></i>cristiandimas74@gmail.com </p></a>
         </div>
 
         <button class="footer__btn footer__btn--home">
