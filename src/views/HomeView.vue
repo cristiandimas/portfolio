@@ -87,7 +87,7 @@
         z-index: 1;
         top: 10vh;
         line-height: 25vh;
-        border: solid red;
+        
         
     }
     .home__cristian {
