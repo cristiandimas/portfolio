@@ -146,7 +146,7 @@
         }
 
         .home__title {
-            line-height: 14vh;
+            line-height: 12vh;
         }
 
         .home__landscape {
@@ -156,7 +156,7 @@
             
         }
         .home__button {
-            bottom: 15vh;
+            bottom: 13vh;
         }
         .home__portfolio {
             width: 12rem;
@@ -198,7 +198,7 @@
 
         .home__title{
             line-height: 6vh;
-            top: 35vh;
+            top: 33vh;
         }
 
         .home__button {
@@ -209,18 +209,18 @@
 
     @media screen and (max-width:400px) {
         .home__button {
-            bottom: 20vh;           
+            bottom: 19vh;           
         }
         .home__landscape {
             padding-bottom: 4rem;
         }
 
         .home__landscape:before{
-            height: 9rem;
+            height: 8.5rem;
         }
 
         .home__animation {
-            margin-bottom: 12.5rem;
+            margin-bottom: 11.5rem;
         }
 
         .home__portfolio {
@@ -232,11 +232,11 @@
     @media(orientation: landscape)  {
         .home__title{
            font-size: 2rem;
-            line-height: 15vh;
+            line-height: 14vh;
             top: 22vh;            
         }
         .home__button {
-            bottom: 32vh;           
+            bottom: 30vh;           
         }
     }
 </style>
