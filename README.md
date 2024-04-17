@@ -17,8 +17,13 @@ Create a web page in Vue with a nice design, responsive and with route preloads 
 
 - HTML
 - CSS
-- JAVASCRIPT
-- VueJs
+- JavaScript
+- React JS
+- Node JS
+- Docker
+- Mongo DB
+- AWS
+  
 
 
 
